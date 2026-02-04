@@ -12,7 +12,7 @@ body {
 .hero {
   min-height: 100vh; /* Full window height */
   display: flex; /* Flex container */
-  align-items: center; /* Vertical centering */
+  align-items: left; /* Vertical centering */
 }
 
 /* Left column text */
