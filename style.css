@@ -1,4 +1,4 @@
-/* Full-screen background */
+/* Full-page background */
 body {
   margin: 0;
   min-height: 100vh;
@@ -8,15 +8,16 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Hero section that centers content vertically and horizontally */
+/* Hero section that fills the viewport */
 .hero {
-  display: flex;
-  flex-direction: column; /* Stack h1 and p vertically */
-  justify-content: center; /* Vertical centering */
-  align-items: center; /* Horizontal centering */
-  min-height: 100vh; /* Full viewport height */
-  text-align: center; /* Center text */
-  padding: 0 15px; /* Padding for small screens */
+  min-height: 100vh; /* Full window height */
+  display: flex; /* Flex container */
+  align-items: center; /* Vertical centering */
+}
+
+/* Left column text */
+.hero-text {
+  text-align: left; /* Left align text */
 }
 
 /* Optional: spacing between navbar links */
