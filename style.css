@@ -1,21 +1,22 @@
-/* Make body take full viewport height and show background image */
+/* Full-screen background */
 body {
-  min-height: 100vh; /* Full window height */
-  margin: 0; /* Remove default margin */
-  background-image: url("beigeBG.png"); /* Your image */
-  background-size: cover; /* Fill screen without stretching */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Don’t tile */
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("beigeBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-/* Hero section to center content vertically + horizontally */
+/* Hero section that centers content vertically and horizontally */
 .hero {
   display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  min-height: 100vh; /* Fill viewport */
-  text-align: center; /* Center text inside */
-  padding: 0 15px; /* Small padding for mobile */
+  flex-direction: column; /* Stack h1 and p vertically */
+  justify-content: center; /* Vertical centering */
+  align-items: center; /* Horizontal centering */
+  min-height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text */
+  padding: 0 15px; /* Padding for small screens */
 }
 
 /* Optional: spacing between navbar links */
