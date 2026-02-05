@@ -28,6 +28,9 @@ body {
 .btn-primary {
   background-color: #708238 !important;
   border-color: #708238 !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
 }
 
 .main-header {
