@@ -13,11 +13,12 @@ body {
   min-height: 100vh; /* Full window height */
   display: flex; /* Flex container */
   align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
 }
 
 /* Left column text */
 .hero-text {
-  text-align: left; /* Left align text */
+  text-align: center; /* Center align text */
 }
 
 /* Optional: spacing between navbar links */
