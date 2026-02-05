@@ -15,6 +15,20 @@ body {
   align-items: center; /* Vertical centering */
 }
 
+/* About page: vertically center content in the viewport */
+.about-hero {
+  min-height: 100vh; /* Fill viewport height */
+  display: flex;
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.about-hero .hero-text {
+  text-align: center; /* Ensure text is centered inside the column */
+}
+
 /* Left column text */
 .hero-text {
   text-align: left; /* left align text */
