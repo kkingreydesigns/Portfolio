@@ -56,7 +56,8 @@ body {
 
 }
 
-.project-card img {
+.project-card img,
+.project-card video {
   display: block;
 }
 
