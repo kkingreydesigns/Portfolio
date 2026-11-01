@@ -91,6 +91,7 @@ body {
 
 /* Project detail pages scroll naturally instead of filling the viewport */
 .project-page {
+  padding-top: 150px;
   padding-bottom: 3rem;
 }
 
