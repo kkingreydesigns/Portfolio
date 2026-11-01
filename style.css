@@ -93,3 +93,27 @@ body {
 .project-page {
   padding-bottom: 3rem;
 }
+
+/* Mobile: let pages grow with their content and keep spacing tight */
+@media (max-width: 767.98px) {
+  .hero {
+    min-height: auto;
+    padding-block: 2rem;
+  }
+
+  .project-page {
+    padding-bottom: 2rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+  }
+
+  .main-header {
+    font-size: 14vw;
+  }
+
+  .name-header {
+    font-size: 1.75rem;
+  }
+}
