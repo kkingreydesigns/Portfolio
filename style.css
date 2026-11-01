@@ -88,3 +88,8 @@ body {
   text-align: center;
 }
 .project-card { text-decoration: none; }
+
+/* Project detail pages scroll naturally instead of filling the viewport */
+.project-page {
+  padding-bottom: 3rem;
+}
