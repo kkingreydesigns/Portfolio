@@ -117,4 +117,9 @@ body {
   .name-header {
     font-size: 1.75rem;
   }
+
+  /* Homepage keeps its full-height, vertically centered layout */
+  .hero-full {
+    min-height: 100vh;
+  }
 }
